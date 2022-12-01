@@ -1,0 +1,47 @@
+html{
+    align-items: center;    
+    background-attachment: fixed;
+    background-image: url(https://s1.eestatic.com/2022/01/18/actualidad/643445840_221177641_1706x960.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+div{
+    display: flow-root;
+    margin: auto;
+    text-align: center;
+}
+h1{
+    color: #0e12d4;
+}
+#divClass{
+    font-size: 20px;
+    padding: 20px;
+    width: 500px;
+}
+#logo{
+    height: 100px;
+    width: 100px;
+}
+#spanId{
+    font-size: 18px;
+    margin: 50px;
+}
+strong{
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+}
+img{
+    border-radius: 1rem;
+    margin: 1rem;
+    width: 400px;
+}
+#thirdDiv{
+    border-color: #00ffff;
+    border-style: double;
+    border-width: 10px;
+    font-size: 20px;
+    height: 600px;
+    padding: 50px;
+    width: 500px;
+}
