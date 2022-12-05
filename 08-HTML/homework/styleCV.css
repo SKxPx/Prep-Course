@@ -1,0 +1,64 @@
+.body{
+    background: #595756;
+    font-size: 20px;
+    display: grid;
+    grid-template-areas: 
+        'header'
+        'contenido'
+        'footer';
+}
+.personal{
+    align-items: center;
+    background: #201f1f;
+    color: #dad6d6;
+    grid-area: 'header';
+    padding: 0 2rem;
+}
+.personal_nombre{
+    color: #d9a754
+}
+.contenido{
+    display: grid;
+    grid-area: 'contenido';
+    grid-gap: 0.2rem;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    padding: 0 2rem;
+}
+
+.descripcion{
+    grid-column: 1 / 1;
+    grid-row: 1 / 1;
+}
+h3{
+    color: #201f1f;
+    background: #dad6d6;
+    border-radius: 0 0.4rem 0 0.4rem;
+    width: max-content;
+    width: fit-content;
+}
+p{
+    background: #201f1f;
+    color: #dad6d6;
+}
+ul{
+    background: #201f1f;
+    color: #dad6d6;
+}
+.educacion{
+    grid-column: 1 / 2;
+    grid-row: 2 / 2;
+}
+.skill{
+    grid-column: 2 / 2;
+    grid-row: 1 / 2;
+}
+.footer{
+    padding: 0 2rem;
+    align-content: center;
+}
+.firma {
+    grid-area: 'footer';
+    color: #0eb10e;
+    font-size: 1.1rem;
+}
